@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="" />
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *:focus {
+            outline: none;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        body {
+            padding: 0px;
+            margin: 0px;
+            overscroll-behavior: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .heading{
+            font-family: 'Comic Neue', cursive;
+            
+        }
+    </style>
+    <body>
+        <div class="heading"><h1>Simple paint App</h1></div>
+        <canvas style="border: 2px solid black" id="canvas"> </canvas>
+        <button
+            style="height: 35px; width: 70px;margin-top: 5px;border: 2px solid black;user-select: none"
+            onclick="buttonClickHandler(event)"
+        >   
+            Reset
+        </button>
+        <!-- <script type="text/javascript" src="index.js"></script> -->
+        <script type="text/javascript" src="index1.js"></script>
+    </body>
+</html>
+<!-- Double click for remove circle -->
